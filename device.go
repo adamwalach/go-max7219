@@ -3,9 +3,9 @@ package max7219
 import (
 	"fmt"
 
-	"golang.org/x/text/encoding"
-
+	log "github.com/Sirupsen/logrus"
 	"github.com/fulr/spidev"
+	"golang.org/x/text/encoding"
 )
 
 // General interface of ASCII char set bit pattern
